@@ -1,5 +1,41 @@
-.nav {
-  display: inline;
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: red;
+}
+
+.navbar .navbar-inner {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar .navbar-inner img {
+  height: 8vh;
+  width: auto;
+}
+
+.navbar .navbar-inner .nav {
+  width: 75vw;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   color: 0;
+}
+
+.navbar .navbar-inner .nav li {
+  list-style: none;
 }
 
